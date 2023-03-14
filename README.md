@@ -84,7 +84,7 @@ Github下载：[Release v1.3.2](https://github.com/hiroi-sora/Umi-OCR/releases/t
 - CPU必须具有AVX指令集。
 - 出现初始化引擎失败等问题时请参考 [问题排除](#问题排除) 。
 
-## 前言
+## 【前言】
 
 关于**忽略指定区域**的特殊功能：
 
@@ -95,7 +95,7 @@ Github下载：[Release v1.3.2](https://github.com/hiroi-sora/Umi-OCR/releases/t
 关于离线OCR引擎 [PaddleOCR-json](https://github.com/hiroi-sora/PaddleOCR-json) ：
 > 对 [PaddleOCR 2.6 cpu_avx_mkl C++](https://github.com/PaddlePaddle/PaddleOCR/tree/release/2.6) 的封装。效率高于Python版本PPOCR及部分Python编写的OCR引擎，通常比在线OCR服务更快(省去网络传输的时间)。支持更换Paddle官方模型（兼容v2和v3版本）或自己训练的模型，支持修改PPOCR各项参数。通过添加不同的语言模型，软件可识别多国语言。
 
-## 简单上手
+## 【简单上手】
 
 #### 准备
 
